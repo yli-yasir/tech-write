@@ -175,6 +175,8 @@ frostDragon.takeUnless{it.isScaredOfWater && it.age > 5}?.fly();
 1. The context is available as a **lambda receiver** accessible via the `this` keyword in the function's scope (`this` can also be omitted).
 2. The return value is the **lambda result**.
 
+> 🗒️ Note that this is not an extension function, you need to pass the context object is an argument to `with`.
+
 ```kotlin
 val frostDragon = Dragon();
 val calories = with(frostDragon){
