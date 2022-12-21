@@ -1,4 +1,4 @@
-# Kotlin's Scope Functions
+# A Quick Intro to Kotlin's Scope Functions
 
 1. Scope functions establish a scope with lambdas to execute operations on a context object.
 2. Finally, they return the result of the lambda or the context object.
@@ -71,8 +71,8 @@ print(speech)
 
 ## run 🏃‍♂️
 
-1- The context is available as a **lambda receiver** accessible via the `this` keyword in the function's scope (`this` can also be omitted).
-2- The return value is the **lambda result**.
+1. The context is available as a **lambda receiver** accessible via the `this` keyword in the function's scope (`this` can also be omitted).
+2.  The return value is the **lambda result**.
 
 
 
