@@ -4,7 +4,7 @@ Q: **🙋‍♂️Is language x compiled or interpreted?**
 
 A: 💡It depends on the implementation, and implementations can involve both approaches.
 
-### The difference between a programming language and its implementation.
+### The difference between a programming language and its implementation
 
 A language is a means to express ideas or meaning. A programming language is about **what you want to communicate to the computer**. It's not about how it ends up being executed by the computer.
 
@@ -32,7 +32,7 @@ A compiler translates a programming language code to other programming language 
 
 ### ❓What's a programming language interpreter?
 
-It's software that has the responsibility of executing bytecode or high level source code by interpreting it to real-machine code. The job is done during runtime.  
+It's software that has the responsibility of executing bytecode or high level source code by translating it to real-machine code. The job is done during runtime.  
 
 > 🗒️ Some notes:
 >
