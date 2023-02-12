@@ -124,14 +124,15 @@ hero.attackWeakDragon(
 
 ```mermaid
 graph LR
-contextObject("context object 🧑")--it-->takeIf
-contextObject--this-->with
-contextObject--it-->takeUnless
-takeIf("takeIf 🙍‍♂️")-->contextObjectN("context object 🧑 OR null 💥")
-with("with ❤️")-->lambdaResult("lambda result 🧮")
-takeUnless("takeUnless 🙍‍♀️")--> contextObjectN("context object 🧑 OR null 💥")
-
+contextObject("context object 🧑")-- it -->takeIf("takeIf 🙍‍♂️")
+contextObject-- it-->takeUnless("takeUnless 🙍‍♀️")
+contextObject-- this -->wisth("with ❤️")
+takeIf-->contextObjectN("context object 🧑 OR null 💥")
+takeUnless-->contextObjectN
+wisth-->lambdaResult("lambda result 🧮")
 ```
+
+
 
 
 
